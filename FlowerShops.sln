@@ -5,6 +5,18 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Api", "FlowerShops.Api\FlowerShops.Api.csproj", "{707CC73C-6C5C-48D4-B6E9-ABE524B8BC21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Context", "FlowerShops.Context\FlowerShops.Context.csproj", "{C530A20C-D777-4018-9446-4ADF6A26D634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Context.Contracts", "FlowerShops.Context.Contracts\FlowerShops.Context.Contracts.csproj", "{6B2A073F-5CA5-4C2D-9867-6EE1DC93835A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Repositories", "FlowerShops.Repositories\FlowerShops.Repositories.csproj", "{F073F86A-9DE2-4E27-811B-015B66FE5D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Repositories.Contracts", "FlowerShops.Repositories.Contracts\FlowerShops.Repositories.Contracts.csproj", "{EE76BE93-7840-4345-AADE-39ADC31DC4D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Service", "FlowerShops.Service\FlowerShops.Service.csproj", "{20BB8984-9AA1-459C-AFD9-B808B5C192A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Service.Contracts", "FlowerShops.Service.Contracts\FlowerShops.Service.Contracts.csproj", "{AAC14EFD-7787-4216-9627-F63A6A403185}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{707CC73C-6C5C-48D4-B6E9-ABE524B8BC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{707CC73C-6C5C-48D4-B6E9-ABE524B8BC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{707CC73C-6C5C-48D4-B6E9-ABE524B8BC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C530A20C-D777-4018-9446-4ADF6A26D634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C530A20C-D777-4018-9446-4ADF6A26D634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C530A20C-D777-4018-9446-4ADF6A26D634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C530A20C-D777-4018-9446-4ADF6A26D634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B2A073F-5CA5-4C2D-9867-6EE1DC93835A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2A073F-5CA5-4C2D-9867-6EE1DC93835A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2A073F-5CA5-4C2D-9867-6EE1DC93835A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2A073F-5CA5-4C2D-9867-6EE1DC93835A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F073F86A-9DE2-4E27-811B-015B66FE5D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F073F86A-9DE2-4E27-811B-015B66FE5D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F073F86A-9DE2-4E27-811B-015B66FE5D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F073F86A-9DE2-4E27-811B-015B66FE5D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE76BE93-7840-4345-AADE-39ADC31DC4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE76BE93-7840-4345-AADE-39ADC31DC4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE76BE93-7840-4345-AADE-39ADC31DC4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE76BE93-7840-4345-AADE-39ADC31DC4D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BB8984-9AA1-459C-AFD9-B808B5C192A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BB8984-9AA1-459C-AFD9-B808B5C192A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BB8984-9AA1-459C-AFD9-B808B5C192A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BB8984-9AA1-459C-AFD9-B808B5C192A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC14EFD-7787-4216-9627-F63A6A403185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC14EFD-7787-4216-9627-F63A6A403185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC14EFD-7787-4216-9627-F63A6A403185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC14EFD-7787-4216-9627-F63A6A403185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
