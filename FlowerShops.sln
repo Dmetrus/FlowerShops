@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Service", "Flow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Service.Contracts", "FlowerShops.Service.Contracts\FlowerShops.Service.Contracts.csproj", "{AAC14EFD-7787-4216-9627-F63A6A403185}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerShops.Common.Entity", "FlowerShops.Common.Entity\FlowerShops.Common.Entity.csproj", "{C63C6B06-331A-4523-9478-727A4F1CD546}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AAC14EFD-7787-4216-9627-F63A6A403185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAC14EFD-7787-4216-9627-F63A6A403185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAC14EFD-7787-4216-9627-F63A6A403185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63C6B06-331A-4523-9478-727A4F1CD546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63C6B06-331A-4523-9478-727A4F1CD546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63C6B06-331A-4523-9478-727A4F1CD546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63C6B06-331A-4523-9478-727A4F1CD546}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
