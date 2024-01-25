@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FlowerShops.Common.Entity\FlowerShops.Common.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

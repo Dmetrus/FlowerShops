@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FlowerShops.Context.Contracts\FlowerShops.Context.Contracts.csproj" />
+    <ProjectReference Include="..\FlowerShops.Repositories.Contracts\FlowerShops.Repositories.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>
