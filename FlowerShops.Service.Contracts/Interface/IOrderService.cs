@@ -1,4 +1,5 @@
-﻿using FlowerShops.Service.Contracts.Models;
+﻿using FlowerShops.Service.Contracts.ModelRequest;
+using FlowerShops.Service.Contracts.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
